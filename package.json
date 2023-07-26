@@ -1,8 +1,8 @@
 {
-  "name": "gulp",
+  "name": "projetogulp_02",
   "version": "1.0.0",
   "description": "",
-  "main": "gulpfile.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,17 +10,25 @@
   "author": "Leonan Mescoito",
   "license": "ISC",
   "devDependencies": {
-    "gulp": "^4.0.2",
-    "gulp-concat": "^2.6.1",
-    "gulp-cssmin": "^0.2.0",
-    "gulp-image": "^6.3.1",
+    "@babel/cli": "^7.22.9",
+    "@babel/core": "^7.15.5",
+    "@babel/preset-env": "^7.15.4",
+    "browser-sync": "2.27.5",
+    "gulp": "4.0.2",
+    "gulp-babel": "8.0.0",
+    "gulp-concat": "2.6.1",
+    "gulp-cssmin": "0.2.0",
+    "gulp-htmlmin": "5.0.1",
+    "gulp-image": "6.2.1",
     "gulp-imagemin": "^7.1.0",
-    "gulp-rename": "^2.0.0",
-    "gulp-uglify": "^3.0.2"
+    "gulp-rename": "2.0.0",
+    "gulp-strip-comments": "2.5.2",
+    "gulp-strip-css-comments": "2.0.0",
+    "gulp-uglify": "3.0.2"
   },
   "dependencies": {
-    "bootstrap": "^5.3.0",
-    "font-awesome": "^4.7.0",
-    "jquery": "^3.7.0"
+    "@fortawesome/fontawesome-free": "^5.15.4",
+    "bootstrap": "5.1.0",
+    "jquery": "3.6.0"
   }
 }
